@@ -1,0 +1,21 @@
+<!-- Crear una página que emita los datos del usuario -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visita Programada</title>
+</head>
+<body>
+    {% block content %}
+    <h1>Gracias por programar tu visita</h1>
+
+    <p>Tu Nombre: {{name}}</p>
+    <p>Tu Correo: {{email}}</p>
+    <p>Tu Direccion: {{address}}</p>
+    <p>Tu Fecha: {{date}}</p>
+
+    {% endblock %}
+
+</body>
+</html>
